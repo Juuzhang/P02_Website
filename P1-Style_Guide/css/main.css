@@ -1,0 +1,256 @@
+/*
+  STYLE GUIDE STYLING
+  Default styling for the style guide
+
+  All code has been coded by Justine Zhang.
+  Resources have been referred to from W3Schools, CSS Tricks, and Helmine Serban's 339 Lecture slides.
+
+*/
+
+*{
+  box-sizing: border-box;
+}
+
+/* NAVIGATION */ /* ////////////////////////////////////////////////////////////// */
+
+nav {
+  position: fixed;
+  top: 0;
+  margin: 0;
+  left: 0;
+  background-color: #333333;
+  width: 100%;
+  z-index: 1;
+
+}
+
+.home-nav a{
+  background-color: #e98300;
+  color: white;
+}
+
+
+#nav-bar {
+  list-style-type: none;
+  text-align: center;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  margin-left: 4rem;
+
+}
+
+#nav-bar li a{
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+
+}
+
+
+#nav-bar li a:active, #nav-bar li a:hover, #nav-bar li a:focus {
+  background-color: #689AFA;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.7s;
+  transition-duration: 0.7s;
+}
+
+/* ////////////////////////////////////////////////////////////// */
+
+.container {
+  position: relative;
+  padding: 4rem;
+}
+
+body {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+  color: white;
+  background-color: #444444;
+}
+
+
+header {
+
+}
+
+/* SECTION ELEMENTS////////////////////////////////////////////////////////////// */
+
+section{
+
+}
+
+section::before{
+    clear:both;
+    display:block;
+    content:""; /*don't forget this empty space */
+}
+
+.guide_elements{
+  clear:both;
+}
+
+.element {
+  padding-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: black;
+}
+
+#form-text {
+  color: #e98300;
+  display: block;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.element #text:focus, textarea:focus{
+  box-shadow: 0 0 5px rgba(0, 255, 0, 1);
+   padding: 1px 0px 1px 1px;
+   margin: 1px 1px 1px 0px;
+   border: 1px solid rgba(0, 255, 0, 1);
+}
+
+.element #text:hover, .element #text:active{
+  transition: .3s ease-in-out;
+}
+
+/* TEXT ELEMENTS////////////////////////////////////////////////////////////// */
+
+a{
+  color: #e98300;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  transition: 0.5s;
+  transition-duration: 0.5s;
+}
+
+h1 {
+font-size: 4rem;
+  color: #689AFA;
+}
+
+h2 {
+  color: #689AFA;
+}
+
+h3 {
+  color: #689AFA;
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+h4 {
+  color: #689AFA;
+  margin-bottom: 0.25rem;
+}
+
+h5 {
+  color: #689AFA;
+  margin-bottom: 0.25rem;
+}
+
+p, ol, ul {
+  margin-top: 0;
+  max-width: 100rem;
+}
+
+#bold {
+  font-family: "Montserrat-bold";
+}
+
+#italic {
+  font-family: "Montserrat-italic";
+}
+
+.Greyscale img{
+  position: relative;
+
+  filter: grayscale(100%);
+  transition: .3s ease-in-out;
+}
+
+.Greyscale:hover img{
+  filter:grayscale(0);
+
+}
+
+/* BUTTON ELEMENTS ////////////////////////////////////////////////////////////// */
+.button-nav {
+  display: inline-block;
+  padding: 0.5rem;
+  color: white;
+  background-color: #689AEA;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color: rgb(200,200,200);
+}
+
+/* IMAGES SECTION////////////////////////////////////////////////////////////// */
+
+.img-with-text {
+    text-align: center;
+    width: 25%;
+    float: left;
+    padding:10px;
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+    width:75%;
+}
+
+.img-with-text p{
+  padding: 10px;
+  margin: 0;
+}
+
+/* RADIO AND INPUT ////////////////////////////////////////////////////////////// */
+
+
+.radio-section input[type="radio"] + label {
+
+}
+
+.radio-section input[type="radio"]:checked + label{
+      color:#e98300;
+}
+
+
+input[type=button], input[type=submit], input[type=reset]{
+  background-color: #e98300;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+
+input[type=button]:focus, input[type=submit]:focus, input[type=reset]:focus{
+  outline: none;
+  background-color: red;
+}
+
+/* CODE SECTION ////////////////////////////////////////////////////////////// */
+
+code {
+  background-color: #333333;
+  padding: 0.5rem;
+  display: block;
+}
