@@ -1,0 +1,9 @@
+/* FONTS //////////////////////////////////////////////// */
+
+@font-face {
+	font-family: 'Montserrat';
+	font-weight: normal;
+	font-style: normal;
+    src: url('../fonts/Montserrat.ttf');
+    src: url('../fonts/Montserrat.ttf') format('truetype');
+}
