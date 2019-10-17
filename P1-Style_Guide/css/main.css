@@ -7,6 +7,9 @@
 
 */
 
+@import url("fonts.css");
+@import "fonts.css";
+
 *{
   box-sizing: border-box;
 }
@@ -151,7 +154,7 @@ h4, h5 {
 
 p, ol, ul {
   margin-top: 0;
-  max-width: 100rem;
+  max-width: 50rem;
 }
 
 #bold {
