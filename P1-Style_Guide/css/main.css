@@ -18,14 +18,14 @@ nav {
   top: 0;
   margin: 0;
   left: 0;
-  background-color: #333333;
+  background-color: #6e4c29;
   width: 100%;
   z-index: 1;
 
 }
 
 .home-nav a{
-  background-color: #333333;
+  background-color: #6e4c29;
   color: #e98300;
 }
 
@@ -50,7 +50,7 @@ nav {
 
 
 #nav-bar li a:active, #nav-bar li a:hover, #nav-bar li a:focus {
-  background-color: #689AFA;
+  background-color: #faa446;
   color: white;
   text-align: center;
   text-decoration: none;
@@ -67,12 +67,12 @@ nav {
 
 body {
   position: relative;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat-Medium", sans-serif;
   font-size: 1rem;
   padding: 0;
   margin: 0;
-  color: white;
-  background-color: #444444;
+  color: #51361d;
+  background-color: #f9c280;
 }
 
 
@@ -136,26 +136,21 @@ a:hover {
 
 h1 {
 font-size: 4rem;
-  color: #689AFA;
+  color: #51361d;
 }
 
 h2 {
-  color: #689AFA;
+  color: #51361d;
 }
 
 h3 {
-  color: #689AFA;
+  color: #51361d;
   font-style: italic;
   margin-top: 1rem;
 }
 
-h4 {
-  color: #689AFA;
-  margin-bottom: 0.25rem;
-}
-
-h5 {
-  color: #689AFA;
+h4, h5 {
+  color: #51361d;
   margin-bottom: 0.25rem;
 }
 
@@ -200,7 +195,6 @@ p, ol, ul {
 }
 
 /* IMAGES SECTION////////////////////////////////////////////////////////////// */
-
 
 .img-with-text {
     text-align: center;
@@ -252,6 +246,7 @@ input[type=button]:focus, input[type=submit]:focus, input[type=reset]:focus{
 
 code {
   background-color: #333333;
+  color: white;
   padding: 0.5rem;
   display: block;
 }
