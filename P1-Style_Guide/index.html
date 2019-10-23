@@ -16,8 +16,8 @@
 
     <nav>
       <ul id="nav-bar">
+      <li><a href="index.html">Home</a></li>
       <li><a href="html/about.html">About</a></li>
-      <li><a href="index.html">Style Guide</a></li>
       <li><a href="html/events.html">Events</a></li>
       <li><a href="html/product_listing.html">Product Listing</a></li>
       <li><a href="html/checkout.html">Checkout</a></li>
@@ -28,7 +28,7 @@
 
 <div class="container">
     <header>
-      <h1>Nut Hut Style Guide</h1>
+      <img src="images/banner.jpg" alt="Nut Hut Banner" width="100%">
 
       <p>
         Welcome to Nut Hut! Where you can browse a variety of nuts from peanuts, pecans, walnuts, and explore different nuts! You can explore the style guide of this page, the producting listing template, checkout template, and how to contact this company using the navigation bar on the top!
@@ -38,200 +38,6 @@
 
     </header>
 
-
-<section class ="font_selection">
-
-  <h2>Font and Colour Choices</h2>
-          <section class="element">
-              <h3>Montserrat</h3>
-
-              <p>The quick fox jumps over the lazy dog</p>
-              <p id="bold">The quick fox jumps over the lazy dog</p>
-              <p id="italic">The quick fox jumps over the lazy dog</p>
-
-          </section>
-</section>
-
-<section id="guide_elements">
-<h2>Colour Guide</h2>
-<section class= "element">
-
-<h3>Primary and Secondary Colours</h3>
-
-<p>These are the following colours for the Nut Hut's colour guide.</p>
-
-
-  <div class="img-with-text">
-    <img src="images/color_4.png" alt="color1">
-        <p>Primary Colour</p>
-  </div>
-
-    <div class="img-with-text">
-        <img src="images/color_1.png" alt="color2">
-            <p>Secondary Colour</p>
-    </div>
-    <div class="img-with-text">
-        <img src="images/color_3.png" alt="color3">
-            <p>Secondary Colour</p>
-    </div>
-    <div class="img-with-text">
-        <img src="images/color_2.png" alt="color4">
-            <p>Secondary Colour</p>
-    </div>
-
-
-  </section>
-</section>
-
-    <!-- INTERACTIVE ELEMENTS SECTION // -->
-    <section id="interactive_elements">
-      <h2>Interactive Elements</h2>
-
-
-      <section class="element">
-        <h3>In-text link</h3>
-        <p>This is a link to the <a href="https://www.google.com/">Nut Hut.</a></p> <!--I learned that it's not with the <p> function but rather with the <a> -->
-      </section>
-
-
-      <!-- Default Button styling section -->
-      <section class="element">
-
-        <h3>Navigation Link</h3>
-
-        <h4>CSS selector:</h4>
-        <p>.button-nav</p>
-
-        <h4>Sample code:</h4>
-        <code>&lt;a href="#" class="button"&gt;Navigation Button&lt;/a&gt;</code>
-
-        <h4>Rendered element:</h4>
-        <a class="button-nav" href="#">Default Button</a>
-
-        <h4>Sample code:</h4>
-        <code>&lt;a class="button-nav" href="#"&gt;Default button&lt;/a&gt;</code>
-
-      </section>
-
-
-      <section class="element">
-        <h3>Submit/Reset Buttons</h3>
-        <input type="submit" class="submit-button">
-
-        <h4>Sample code:</h4>
-        <code>&lt;input type = "submit"&gt;</code>
-
-      </section>
-
-
-      <section class="element">
-        <h3>Text Input Field with Label</h3>
-        <form>
-          <label for="text" id="form-text">Text</label><input type="text" name="Text" id="text">
-    <!-- I learned this is how you label a text for input -->
-        </form>
-
-        <h4>Sample code:</h4>
-        <code>&lt;label for = "text"&gt; Text &lt;/label&gt; &lt;input type = "text" name = "Text" id="text"&gt;</code>
-
-
-      </section>
-
-
-      <section class="element">
-        <h3>Radio Button with Label</h3>
-        <form action="/action_page.php" class="radio-section">
-            <p>Please select your nut:</p>
-            <input type="radio" name="nut" id="dslr" value="dslr"> <label for="dslr">Peanut</label><br>
-              <input type="radio" name="nut" id="compact" class="radio" value="compact">  <label  for="compact">Almond</label><br>
-              <input type="radio" name="nut" id="other" class="radio" value="other"> <label for="other">Walnut</label><br>
-          </form>
-
-      <h4>Sample code:</h4>
-      <code>&lt;input type = "radio" name = "nut" value="dslr"&gt; DSLR &lt;br&gt;</code>
-      </section>
-
-
-      <section class="element">
-        <h3>Image as a Link</h3>
-
-
-        <a href="https://en.wikipedia.org/wiki/Walnut"
-        class="Greyscale"><img src="images/walnuts.png" alt="Walnuts" width="20%">
-        </a>
-
-        <!-- I learned this is how you wrap a link to an image. -->
-
-    <h4>Sample code:</h4>
-    <code>&lt;a href = "https://en.wikipedia.org/wiki/Nut_(fruit)" class="Greyscale"&gt; &lt;img src="images/Camera.jpeg" alt="Canon DSLR"&gt;</code>
-      </section>
-
-
-    </section>
-    <!-- // INTERACTIVE ELEMENTS SECTION -->
-
-    <!-- TEXT ELEMENTS SECTION // -->
-    <section id="text_elements">
-      <h2>Text Elements</h2>
-
-      <section class="element">
-        <h3>Headings</h3>
-        <h2>Heading 1</h2>
-        <h3>Heading 2</h3>
-        <h4>Heading 3</h4>
-        <h5>Heading 4</h5>
-
-        <!-- I learned that there's more than 6 headings in HTML -->
-        <h4>Sample code:</h4>
-        <code>&lt;h2&gt;Heading 1&lt;/h2&gt;</code>
-          </section>
-
-      <section class="element">
-
-        <h3>Paragraphs</h3>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam hendrerit pulvinar lorem sit amet luctus. Pellentesque vel sem porttitor, lobortis urna vitae, ultrices nisi. Nam sit amet nunc velit. Vestibulum vitae ex rhoncus, tempor leo sit amet, hendrerit magna. Praesent lacinia risus tristique purus maximus porta. Duis tempor semper sem, nec mollis erat molestie quis. Sed finibus aliquet orci. Integer mauris ex, tincidunt quis tortor vitae, molestie gravida felis.</p>
-
-      <p>Ut rhoncus egestas tortor eget accumsan. Etiam feugiat hendrerit neque, vitae efficitur nulla maximus eu. Nullam tincidunt justo at velit sodales malesuada. Nam tincidunt ex metus, non laoreet nulla sollicitudin vel. Praesent non tellus velit. Duis feugiat ex non felis dapibus, non faucibus nulla posuere. Pellentesque ut lectus nisl. Vestibulum quis orci porttitor, aliquam metus at, iaculis nulla. Duis orci felis, efficitur ac ullamcorper a, elementum vitae ligula. Duis sit amet nisi a ex gravida sagittis. Donec vestibulum, nisi a aliquet consequat, metus eros euismod purus, non fringilla turpis neque et sem. Praesent libero felis, elementum et auctor in, interdum at nisl. Curabitur sodales consectetur diam quis sodales.</p>
-
-        <!-- I learned how just adding another <p> tag makes a space for the next paragraph already, and I also learned how <br> breaks the line and allows for spaces in webpages -->
-
-        <h4>Sample code:</h4>
-        <code>&lt;p&gt; This is a paragraph &lt;/p&gt;</code>
-      </section>
-
-      <section class="element">
-        <h3>Numbered Lists</h3>
-
-        <ol>
-          <li>List Item 1</li>
-          <li>List Item 2</li>
-          <li>List Item 3</li>
-        </ol>
-
-        <h4>Sample code:</h4>
-        <code>&lt;ol&gt;&lt;li&gt;Navigation Button&lt;/li&gt;&lt;/ol&gt;</code>
-
-      </section>
-
-
-      <section class="element">
-        <h3>Payment Form</h3>
-        <form action="/action_page.php" class="radio-section">
-            <p>Please select your payment type:</p>
-              <input type="radio" name="payment" value="visa" id="visa"><label for="visa"> Visa</label><br>
-              <input type="radio" name="payment" value="mastercard" id="mastercard"><label for="mastercard"> Mastercard</label><br>
-              <input type="radio" name="payment" value="paypal" id="paypal"><label for="paypal"> Paypal</label><br>
-          </form><br>
-            <input type="submit" class="submit-button">
-
-            <h4>Sample code:</h4>
-            <code>&lt;form action-"/action_page.php" class="radio-section"&gt; &lt;p&gt;Please select your payment type&lt;/p&gt;
-            &lt;input type="radio name="payment value="dslr"&gt; &lt;label for="visa"&gt;Visa&lt;/label&gt;&lt;br&gt;</code>
-
-      </section>
-      </section>
-    </div>
   </body>
 
 </html>
