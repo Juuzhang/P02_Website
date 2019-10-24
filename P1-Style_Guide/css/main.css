@@ -131,7 +131,7 @@ a{
 }
 
 a:hover {
-  color: blue;
+  color: black;
   transition: 0.5s;
   transition-duration: 0.5s;
 }
@@ -211,15 +211,17 @@ figure img {
 
 .img-with-text {
     text-align: center;
-    width: 25%;
+    width: 30%;
     float: left;
     padding:10px;
+    height: 200px;
+    bottom: 0;
 }
 
 .img-with-text img {
     display: block;
     margin: 0 auto;
-    width:75%;
+    min-width:75%;
 }
 
 .img-with-text p{
