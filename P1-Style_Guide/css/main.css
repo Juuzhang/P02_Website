@@ -158,7 +158,7 @@ h4, h5 {
 
 p, ol, ul {
   margin-top: 0;
-  max-width: 50rem;
+  max-width: 75%;
 }
 
 #bold {
@@ -172,7 +172,7 @@ p, ol, ul {
 .Greyscale img{
   position: relative;
 
-  filter: grayscale(100%);
+  filter: grayscale(50%);
   transition: .3s ease-in-out;
 }
 
@@ -197,6 +197,17 @@ p, ol, ul {
 }
 
 /* IMAGES SECTION////////////////////////////////////////////////////////////// */
+
+figure {
+  width:100%; /*container-width*/
+  overflow:hidden; /*hide bounds of image */
+  margin:0;   /*reset margin of figure tag*/
+}
+
+figure img {
+  display:block; /*remove inline-block spaces*/
+  width:100%; /*make image stretch*/
+}
 
 .img-with-text {
     text-align: center;
