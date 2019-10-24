@@ -6,6 +6,9 @@
   Resources have been referred to from W3Schools, CSS Tricks, and Helmine Serban's 339 Lecture slides.
 
 */
+@import "fonts.css";
+@import url("fonts.css");
+
 
 @import url("fonts.css");
 @import "fonts.css";
@@ -13,6 +16,7 @@
 *{
   box-sizing: border-box;
 }
+
 
 /* NAVIGATION */ /* ////////////////////////////////////////////////////////////// */
 
@@ -127,7 +131,7 @@ a{
 }
 
 a:hover {
-  color: white;
+  color: blue;
   transition: 0.5s;
   transition-duration: 0.5s;
 }
