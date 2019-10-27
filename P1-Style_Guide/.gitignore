@@ -1,4 +1,6 @@
-# ignore images
-
-
 *.DS_Store
+*.psd
+*.jpg
+*.png
+*.woff
+*.woff2
