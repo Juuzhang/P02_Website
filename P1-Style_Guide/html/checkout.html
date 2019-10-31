@@ -25,7 +25,7 @@
 
     <div class="container">
       <header>
-        <h1>Nut Hut's Checkout</h1>
+        <h1>Checkout</h1>
 
       </header>
 
@@ -37,12 +37,22 @@
 
 
           <h3>Payment Form</h3>
-          <form action="/action_page.php" class="radio-section">
-              <p>Please select your payment type:</p>
-                <input type="radio" name="payment" value="visa" id="visa"><label for="visa"> Visa</label><br>
-                <input type="radio" name="payment" value="mastercard" id="mastercard"><label for="mastercard"> Mastercard</label><br>
-                <input type="radio" name="payment" value="paypal" id="paypal"><label for="paypal"> Paypal</label><br>
-            </form><br>
+              <h4> Billing Information </h4>
+                <form action="/action_page.php">
+                First name: <input type="text" name="fname"><br>
+                Last name: <input type="text" name="lname"><br>
+                Address: <input type="text" name="address"><br>
+                City: <input type="text" name="city"><br>
+                Province: <input type="text" name="province"><br>
+                Postal Code: <input type="text" name="postal-code"><br>
+                </form>
+
+              <h4>Payment Type</h4>
+                <form action="/action_page.php" class="radio-section">
+                  <input type="radio" name="payment" value="visa" id="visa"><label for="visa"> Visa</label><br>
+                  <input type="radio" name="payment" value="mastercard" id="mastercard"><label for="mastercard"> Mastercard</label><br>
+                  <input type="radio" name="payment" value="paypal" id="paypal"><label for="paypal"> Paypal</label><br>
+                </form>
               <input type="submit" class="submit-button">
 
     </div>

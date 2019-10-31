@@ -31,24 +31,6 @@ nav {
 
 }
 
-footer {
-  list-style-type: none;
-  text-align: center;
-  overflow: hidden;
-  padding: 0;
-  margin: 0;
-  margin-left: 4rem;
-  position:relative;
-  bottom:0;
-}
-
-footer li a {
-  float: left;
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
-}
-
 #nav-bar {
   list-style-type: none;
   text-align: center;
@@ -206,6 +188,26 @@ p, ol, ul {
 
 }
 
+/* FOOTER ////////////////////////////////////////////////////////////// */
+
+footer {
+  list-style-type: none;
+  text-align: center;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  margin-left: 4rem;
+  position:relative;
+  bottom:0;
+}
+
+footer li a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+
 /* BUTTON ELEMENTS ////////////////////////////////////////////////////////////// */
 .button-nav {
   display: inline-block;
@@ -282,7 +284,7 @@ input[type=button], input[type=submit], input[type=reset]{
   color: white;
   padding: 16px 32px;
   text-decoration: none;
-  margin: 4px 2px;
+  margin: 20px 2px;
   cursor: pointer;
 
 }
