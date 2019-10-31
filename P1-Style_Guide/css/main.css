@@ -112,21 +112,21 @@ section::before{
   border-top-color: black;
 }
 
-#form-text {
+.form-text {
   color: #e98300;
   display: block;
   font-weight: 600;
   margin-bottom: 2px;
 }
 
-.element #text:focus, textarea:focus{
+.element .text:focus, textarea:focus{
   box-shadow: 0 0 5px rgba(0, 255, 0, 1);
    padding: 1px 0px 1px 1px;
    margin: 1px 1px 1px 0px;
    border: 1px solid rgba(0, 255, 0, 1);
 }
 
-.element #text:hover, .element #text:active{
+.element .text:hover, .element .text:active{
   transition: .3s ease-in-out;
 }
 
