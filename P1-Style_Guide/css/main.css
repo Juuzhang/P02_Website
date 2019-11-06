@@ -128,7 +128,7 @@ nav {
 
 }
 
-#hamburger:checked ~ nav #nav-bar li{
+#hamburger:checked ~ #nav-bar li{
   display: list-item;
 }
 
@@ -136,7 +136,7 @@ nav {
   flex-direction: column;
   text-align: center;
   }
-
+}
 
 /* BODY CONTAINER ////////////////////////////////////////////////////////////// */
 
