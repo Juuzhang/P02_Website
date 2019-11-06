@@ -60,11 +60,18 @@ nav {
 }
 
 @media only screen and (max-width: 746px){
+/*#nav-bar li a{
+  visibility: hidden;
+} */
+
+
   #nav-bar li{
   height: 50px;
   flex-direction: column;
   text-align: center;
   }
+
+
 }
 
 /* BODY CONTAINER ////////////////////////////////////////////////////////////// */
