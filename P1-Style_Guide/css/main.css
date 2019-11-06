@@ -67,13 +67,13 @@ nav {
   }
 }
 
-/* ////////////////////////////////////////////////////////////// */
+/* BODY CONTAINER ////////////////////////////////////////////////////////////// */
 
 .container {
   position: relative;
-  padding: 4rem;
   min-height:700px;
   margin:auto;
+  width: 100%;
 }
 
 body {
@@ -88,8 +88,30 @@ body {
 
 
 header {
-
+padding-top: 1rem;
 }
+
+/* COLUMNS ////////////////////////////////////////////////////////////// */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column1 {
+  float: left;
+  width: 50%;
+  padding-left: 5rem;
+}
+
+.column2 {
+  float: left;
+  width: 50%;
+}
+
+
+
 
 /* SECTION ELEMENTS////////////////////////////////////////////////////////////// */
 
@@ -110,8 +132,6 @@ section::before{
 .element {
   padding-bottom: 2rem;
   border-top-width: 0.15rem;
-  border-top-style: solid;
-  border-top-color: black;
 }
 
 .form-text {
