@@ -191,6 +191,10 @@ p, ol, ul {
   max-width: 75%;
 }
 
+#total {
+  text-align: right;
+}
+
 #bold {
   font-family: "Montserrat-bold";
 }
