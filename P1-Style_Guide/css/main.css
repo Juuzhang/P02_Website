@@ -31,7 +31,6 @@ nav {
 
 }
 
-
 #nav-bar {
   list-style-type: none;
   text-align: center;
@@ -73,6 +72,8 @@ nav {
 .container {
   position: relative;
   padding: 4rem;
+  min-height:700px;
+  margin:auto;
 }
 
 body {
@@ -113,21 +114,21 @@ section::before{
   border-top-color: black;
 }
 
-#form-text {
+.form-text {
   color: #e98300;
   display: block;
   font-weight: 600;
   margin-bottom: 2px;
 }
 
-.element #text:focus, textarea:focus{
+.element .text:focus, textarea:focus{
   box-shadow: 0 0 5px rgba(0, 255, 0, 1);
    padding: 1px 0px 1px 1px;
    margin: 1px 1px 1px 0px;
    border: 1px solid rgba(0, 255, 0, 1);
 }
 
-.element #text:hover, .element #text:active{
+.element .text:hover, .element .text:active{
   transition: .3s ease-in-out;
 }
 
@@ -189,6 +190,27 @@ p, ol, ul {
 
 }
 
+/* FOOTER ////////////////////////////////////////////////////////////// */
+
+footer {
+  list-style-type: none;
+  text-align: center;
+  overflow: hidden;
+  padding: 0;
+  margin: 1rem;
+  margin-left: 4rem;
+  bottom:0;
+  position: static;
+  clear: both;
+}
+
+footer li a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+
 /* BUTTON ELEMENTS ////////////////////////////////////////////////////////////// */
 .button-nav {
   display: inline-block;
@@ -204,7 +226,18 @@ p, ol, ul {
   background-color: rgb(200,200,200);
 }
 
+.add-to-cart {
+  background-color: #e98300;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
 /* IMAGES SECTION////////////////////////////////////////////////////////////// */
+
 
 figure {
   width:100%; /*container-width*/
@@ -220,10 +253,9 @@ figure img {
 .img-with-text {
     text-align: center;
     width: 30%;
-    float: left;
     padding:10px;
-    height: 200px;
-    bottom: 0;
+    float:left;
+    position:relative;
 }
 
 .img-with-text img {
@@ -255,7 +287,7 @@ input[type=button], input[type=submit], input[type=reset]{
   color: white;
   padding: 16px 32px;
   text-decoration: none;
-  margin: 4px 2px;
+  margin: 20px 2px;
   cursor: pointer;
 
 }

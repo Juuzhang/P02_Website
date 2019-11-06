@@ -20,37 +20,66 @@
       <li><a href="events.html">Events</a></li>
       <li><a href="product_listing.html">Product Listing</a></li>
       <li><a href="checkout.html">Checkout</a></li>
-      <li><a href="ratings.html">Ratings</a></li>
-      <li><a href="citations.html">Citations</a></li>
     </ul>
     </nav>
 
     <div class="container">
-    <header>
-      <h1>Nut Hut's Checkout</h1>
+      <header>
+        <h1>Checkout</h1>
 
-      <p>This is the Checkout section for the Nut Hut. You can check out the contents on this page:</p>
+      </header>
 
+        <img src="../images/walnuts.png" alt="walnuts" width="15%">
 
-</header>
-
-  <a href="product_listing.html">
-  <img src="../images/walnuts.png" alt="walnuts" width="30%">
-  </a>
-
-  <p>Total = $600.00</p>
+        <img src="../images/almonds.png" alt="walnuts" width="15%">
 
 
-    <h3>Payment Form</h3>
-    <form action="/action_page.php" class="radio-section">
-        <p>Please select your payment type:</p>
-          <input type="radio" name="payment" value="visa" id="visa"><label for="visa"> Visa</label><br>
-          <input type="radio" name="payment" value="mastercard" id="mastercard"><label for="mastercard"> Mastercard</label><br>
-          <input type="radio" name="payment" value="paypal" id="paypal"><label for="paypal"> Paypal</label><br>
-      </form><br>
-        <input type="submit" class="submit-button">
+        <p>Total = $6.00</p>
 
-</div>
+
+          <h3>Payment Form</h3>
+              <h4> Billing Information </h4>
+                <form action="/action_page.php">
+                <label for="fname" class="form-text">
+                  First name:
+                </label>
+                <input type="text" name="fname" class="text"><br>
+                <label for="lname" class="form-text">
+                  Last name:
+                </label>
+                <input type="text" name="lname"><br>
+                <label for="address" class="form-text">
+                  Address:
+                </label>
+                <input type="text" name="address"><br>
+                <label for="city" class="form-text">
+                  City:
+                </label>
+                <input type="text" name="city"><br>
+                <label for="province" class="form-text">
+                  Province:
+                </label>
+                <input type="text" name="province"><br>
+                <label for="postal-code" class="form-text">
+                  Postal Code:
+                </label>
+                <input type="text" name="postal-code"><br>
+                </form>
+
+              <h4>Payment Type</h4>
+                <form action="/action_page.php" class="radio-section">
+                  <input type="radio" name="payment" value="visa" id="visa"><label for="visa"> Visa</label><br>
+                  <input type="radio" name="payment" value="mastercard" id="mastercard"><label for="mastercard"> Mastercard</label><br>
+                  <input type="radio" name="payment" value="paypal" id="paypal"><label for="paypal"> Paypal</label><br>
+                </form>
+              <input type="submit" class="submit-button">
+
+    </div>
+
+    <footer>
+      <li><a href="html/citations.html">Citations</a></li>
+      <li><a href="html/style_guide.html">Style Guide</a></li>
+    </footer>
 
   </body>
 </html>
