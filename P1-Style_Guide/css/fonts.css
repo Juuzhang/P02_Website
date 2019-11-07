@@ -13,7 +13,7 @@
 	font-weight: medium;
 	font-style: medium;
     src:
-				url('fonts/Montserrat-Medium.ttf') format('woff');
+				url('fonts/Montserrat-Medium.ttf') format('truetype');
 }
 
 @font-face {
@@ -26,8 +26,8 @@
 
 @font-face {
 	font-family: 'Montserrat-italic';
-	font-weight: bold;
-	font-style: bold;
+	font-weight: italic;
+	font-style: italic;
     src: url('fonts/Montserrat-RegularItalic.ttf');
     src: url('fonts/Montserrat-RegularItalic.ttf') format('truetype');
 }

@@ -10,9 +10,6 @@
 @import url("fonts.css");
 
 
-@import url("fonts.css");
-@import "fonts.css";
-
 *{
   box-sizing: border-box;
 }
@@ -168,7 +165,7 @@ nav {
 .container {
   position: relative;
     content: "";
-  min-height:700px;
+  min-height:850px;
   width: 100%;
 }
 
