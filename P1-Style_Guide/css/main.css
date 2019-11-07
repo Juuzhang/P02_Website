@@ -188,7 +188,8 @@ body {
 .column1 {
   float: left;
   width: 50%;
-  padding-left: 5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 
 }
 
@@ -197,6 +198,17 @@ body {
   width: 50%;
 
 }
+
+@media only screen and (max-width: 746px){
+  .column1{
+    width: 100%;
+  }
+
+  .column2{
+    width: 100%;
+  }
+}
+
 
 
 
@@ -252,6 +264,7 @@ a:hover {
 
 h1 {
 margin: 0;
+padding-left: 2rem;
 padding-top: 3rem;
 font-size: 4rem;
   color: #51361d;
