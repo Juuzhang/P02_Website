@@ -154,7 +154,9 @@ nav {
   transition-duration: 0.7s;
 }
 
-
+#payment {
+  margin-left: 5rem;
+}
 
 
 
@@ -295,7 +297,12 @@ p, ol, ul {
 }
 
 #total {
-  text-align: right;
+  text-align: left;
+  margin: 2rem;
+}
+
+#thanks {
+  margin: 3rem;
 }
 
 #bold {
