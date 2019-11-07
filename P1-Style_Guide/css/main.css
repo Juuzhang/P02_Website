@@ -22,55 +22,59 @@
 
 #NutHut {
   float: left;
+
   padding-top: 0;
   margin-left: 10px;
   margin-top: 10px;
+  margin-bottom: 0;
+  margin-right: 3em;
   color: white;
-
-
 }
+
 
 header{
   width: 100%;
   position: fixed;
   background-color: #6e4c29;
   height: 3rem;
+  z-index: 99999;
 }
 
 
 nav {
-  position: fixed;
+
+  float: left;
   top: 0;
   margin: 0;
-  left: 5em;
-  width: 100%;
-
 
 }
 
-#nav-bar {
+nav ul {
+float: left;
   list-style-type: none;
-  text-align: center;
   overflow: hidden;
   padding: 0;
   margin: 0;
-  margin-left: 4rem;
 
 }
 
-#nav-bar li a{
+nav ul li {
   float: left;
-  display: block;
-  text-align: center;
+  clear: none;
+  display: inline-block;
+}
+
+nav ul li a{
+  float: left;
   padding: 14px 16px;
 
 }
 
 
-#nav-bar li a:active, #nav-bar li a:hover, #nav-bar li a:focus {
+nav ul li a:active, nav ul li a:hover, nav ul li a:focus {
   background-color: #faa446;
   color: white;
-  text-align: center;
+
   text-decoration: none;
   transition: 0.7s;
   transition-duration: 0.7s;
@@ -115,35 +119,49 @@ nav {
 
 }
 
-
-
-#hamburger:checked ~ nav {
-	position: absolute;
-	display: block;
-	float: left;
-	font-size: 100px;
+#hamburger:checked ~ nav{
+  background-color: #6e4c29;
+  position: relative;
+  left: 0;
+  width: 100%;
+	display: list-item;
 	margin-left: 0px;
+  margin-top: 0;
 	overflow: hidden;
 	z-index: -1;
+}
+
+#hamburger:checked ~ nav ul li {
+  clear: left;
+}
+
+#hamburger:checked ~ nav ul:hover, nav ul:hover, nav ul:focus {
 
 }
 
-#hamburger:checked ~ #nav-bar li{
-  display: list-item;
+#hamburger:checked ~ nav ul li a:active, nav ul li a:hover, nav ul li a:focus {
+  background-color: #faa446;
+left: 0;
+  color: white;
+width: 100%;
+  text-decoration: none;
+  transition: 0.7s;
+  transition-duration: 0.7s;
 }
 
-  #nav-bar li{
-  flex-direction: column;
-  text-align: center;
-  }
+
+
+
+
+
 }
 
 /* BODY CONTAINER ////////////////////////////////////////////////////////////// */
 
 .container {
   position: relative;
+    content: "";
   min-height:700px;
-  margin:auto;
   width: 100%;
 }
 
@@ -233,6 +251,8 @@ a:hover {
 }
 
 h1 {
+margin: 0;
+padding-top: 3rem;
 font-size: 4rem;
   color: #51361d;
 }
@@ -254,7 +274,6 @@ h4, h5 {
 
 p, ol, ul {
   margin-top: 0;
-  max-width: 75%;
 }
 
 #total {
